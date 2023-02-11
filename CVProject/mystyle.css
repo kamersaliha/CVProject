@@ -1,0 +1,47 @@
+/* education */
+* {
+    font-family: 'Roboto', sans-serif !important;
+   
+}
+.custom-color-bar {
+    background-color: #8428F8;
+}
+.percentage {
+text-align: end;
+}
+.cardprojects {
+transition: all 0.3s ease-in-out;
+}
+
+.cardprojects:hover {
+transform: scale(1.1);
+
+}
+.cardprojects{
+border-radius: 11px;
+background-color: #8428F8;
+}
+.cardtxt { 
+opacity: 0;
+}
+.cardprojects:hover img {
+opacity: 0.3
+}
+.cardtxt:hover{
+color: honeydew;
+opacity:1;
+}
+
+@media (max-width: 767.98px) {
+
+    .timeline {
+        display: none !important; 
+    }
+}
+
+@media (min-width: 768px) {
+
+    .timelineMobile {
+        display: none;
+    }
+}
